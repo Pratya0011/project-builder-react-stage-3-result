@@ -1,0 +1,57 @@
+.quiz{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 10%;
+    width: 1300px;
+    padding: 0px;
+}
+.option{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+    margin-top: 30px;
+}
+.option div{
+    background-color: dodgerblue;
+    height: 30px;
+    border-radius: 33px;
+    padding: 8px;
+    color: white;
+}
+.option div button{
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 0px;
+    border: none;
+    height: 35px;
+}
+.colour button{
+    height: 20px;
+    width: 65px;
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0.486);
+}
+.button{
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr;
+    grid-gap: 1em;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.question{
+    display: inline-flex;
+    text-align: left;
+}
+.one{
+    padding-right: 300px;
+    padding-left: 0px;
+}
+.two{
+    padding-right: 300px;
+    font-size: 20px;
+}
